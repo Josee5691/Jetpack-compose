@@ -8,4 +8,5 @@ import com.example.compose.StatefulCounter
 @Composable
 fun WellnessScreen(modifier: Modifier = Modifier){
     StatefulCounter(modifier = modifier)
+    WellnessTaskList()
 }
